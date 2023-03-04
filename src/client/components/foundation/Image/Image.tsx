@@ -13,9 +13,8 @@ export const Image: FC<Props> = ({ fill, ...rest }) => {
       className={classNames(styles.container(), {
         [styles.container__fill()]: fill === true,
       })}
-      loading="eager"
+      loading="lazy"
       {...rest}
-      decoding="async"
     />
   );
 };
