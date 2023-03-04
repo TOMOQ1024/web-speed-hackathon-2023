@@ -1,3 +1,6 @@
+# fly.toml file generated for purple-sky-2100 on 2023-03-04T14:19:49+09:00
+
+app = "purple-sky-2100"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
