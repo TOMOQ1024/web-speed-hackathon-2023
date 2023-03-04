@@ -15,6 +15,7 @@ export const Image: FC<Props> = ({ fill, ...rest }) => {
       })}
       loading="eager"
       {...rest}
+      decoding="async"
     />
   );
 };
